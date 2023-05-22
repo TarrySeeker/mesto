@@ -27,6 +27,8 @@ function handleFormSubmit (evt) {
     nameValue.textContent = nameInput.value;
     jobValue.textContent = jobInput.value;
     closedPopup();
+    debugger;
 }
 
 formElement.addEventListener('submit',handleFormSubmit);
+
